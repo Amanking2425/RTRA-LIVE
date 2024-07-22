@@ -1,0 +1,10 @@
+{
+    "alumni1": {
+        "name": "John Doe",
+        "graduationYear": 2010,
+        "degree": "B.S. Computer Science",
+        "job": "Software Engineer",
+        "company": "Google"
+    }
+    }
+}
