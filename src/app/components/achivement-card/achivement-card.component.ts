@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-achivement-card',
@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './achivement-card.component.css'
 })
 export class AchivementCardComponent {
+  @Input() url!:String;
+  @Input() title!:String;
+  @Input() date!:String;
+  @Input() description!:String;
 
 }

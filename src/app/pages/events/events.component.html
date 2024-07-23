@@ -34,7 +34,7 @@
         <!-- for upcoming events  -->
         @if(activeTab){
             @for(event of UpcomingEvents; track event.id) {
-                <app-event-card [event]="event"></app-event-card>
+                <app-event-card [event]="event" ></app-event-card>
             }
         }@else {
             @for(event of PastEvents; track event.id) {
