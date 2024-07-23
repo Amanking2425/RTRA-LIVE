@@ -25,21 +25,21 @@
                 >
                     "Explore, Create, Apply"
                 </p>
-
-                <form
-                    class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4 z-2"
+                
+                <button
+                    class="text-white font-bold py-2 px-4 rounded hover:scale-105 duration-300 ease-in-out heroButton"
+                    type="button"
+                    (click)="login()"
+                >
+                    Join US
+                </button>
+                <!-- <form
+                    class="bg-transparent opacity-75 w-full rounded-lg px-8 pt-6 pb-8 mb-4 z-2"
                     *ngIf="!user.email"
                 >
                     <div class="flex items-center justify-between pt-4">
-                        <button
-                            class="text-white font-bold py-2 px-4 rounded hover:scale-105 duration-300 ease-in-out heroButton"
-                            type="button"
-                            (click)="login()"
-                        >
-                            Login With Google
-                        </button>
                     </div>
-                </form>
+                </form> -->
             </div>
 
             <!--Right Col-->
