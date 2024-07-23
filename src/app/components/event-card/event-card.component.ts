@@ -4,6 +4,8 @@ interface CustomEvent {
     id: string;
     title: string;
     description: string;
+    coverUrl : string;
+    backUrl:string;
     date: string;
     location: string;
     timings: string;
