@@ -69,3 +69,17 @@ form {
         background-position: 100% 100%;
     }
 }
+
+.rtraLoad{
+    animation: slideIn 1s both;
+}
+
+@keyframes slideIn {
+    from{
+        transform: translateX(-30px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+    
+}

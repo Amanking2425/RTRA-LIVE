@@ -24,7 +24,7 @@ interface Tabs{
   styleUrl: './events.component.css'
 })
 export class EventsComponent {
-    activeTab :boolean = true;// true->upcoming ; false->past
+    activeTab :boolean = false;// true->upcoming ; false->past
     constructor(private firestore: Firestore) {}
     eventsCollection = collection(this.firestore, 'events');
     UpcomingEvents: any[] = [];
