@@ -1,7 +1,7 @@
 <h2 class="eventCategory">{{ category }}</h2>
 <div class="eventBoard scroll-smooth focus:scroll-auto" >
     @for(event of events; track event.title) {
-        <app-event-card [event]="event"></app-event-card>
+        <app-event-card [event]="event" ></app-event-card>
     }
     <!-- next  -->
     <div class="tile-container flex justify-center items-center">

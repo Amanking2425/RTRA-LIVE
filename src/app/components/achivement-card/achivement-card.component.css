@@ -17,10 +17,6 @@
     scale: 1.03;
 }
 .tile-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 .tile-image img {
