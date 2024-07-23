@@ -1,24 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #70daa8;
-  }
-  
-  .column
-  {
-      width:25%;
-      float:left;
-      padding:100px 10px;
-  }
 
-  .row:after{
-      content:"";
-      display:table;
-      clear:both;
-  }
 
  
 
@@ -65,7 +45,9 @@
   a{
       text-decoration: none;
       font-size:22px;
-      color:black;
+      color:rgb(255, 255, 255);
+      background-color: #36363e;
+      border-radius: 10px;
   }
 
   a:hover,button:hover{
