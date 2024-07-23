@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { EventCardComponent } from '../../components/event-card/event-card.component';
+import {EventsData} from "./EventsData";
 
 import {
     Firestore,
@@ -30,16 +31,30 @@ export class EventsComponent {
     UpcomingEvents: any[] = [];
     PastEvents: any[] = [];
 
+//interface CustomEvent {
+//     id: string;
+//     title: string;
+//     description: string;
+//     date: string;
+//     location: string;
+//     timings: string;
+//     category: string;
+// }
+
+
     async ngOnInit() {
-        const eventsQuery = query(this.eventsCollection, where('category', '==', 'upcoming'));
-        const querySnapshot = await getDocs(eventsQuery);
-        querySnapshot.forEach((doc) => {
-            this.UpcomingEvents.push(doc.data());
-        });
-        const eventsQueryPast = query(this.eventsCollection, where('category', '==', 'past'));
-        const querySnapshotPast = await getDocs(eventsQueryPast);
-        querySnapshotPast.forEach((doc) => {
-            this.PastEvents.push(doc.data());
-        });
+        // const eventsQuery = query(this.eventsCollection, where('category', '==', 'upcoming'));
+        // const querySnapshot = await getDocs(eventsQuery);
+        // querySnapshot.forEach((doc) => {
+        //     this.UpcomingEvents.push(doc.data());
+        // });
+        // const eventsQueryPast = query(this.eventsCollection, where('category', '==', 'past'));
+        // const querySnapshotPast = await getDocs(eventsQueryPast);
+        // querySnapshotPast.forEach((doc) => {
+        //     this.PastEvents.push(doc.data());
+        // });
+        this.PastEvents.push.apply(this.PastEvents,
+            EventsData
+        )
     }
 };
