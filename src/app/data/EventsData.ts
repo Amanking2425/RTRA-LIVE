@@ -2,9 +2,9 @@ export var EventsData = [
     {
             id:0,
             title: "ONE",
-            description: "MyDiscrioptin",
             coverUrl : "",
             backUrl : "",
+            description: "MyDiscrioptin",
             date: "MyDate",
             location: "My Location",
             timings: "My Tmining",

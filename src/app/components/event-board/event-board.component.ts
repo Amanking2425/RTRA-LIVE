@@ -10,6 +10,8 @@ interface CustomEvent {
     location: string;
     timings: string;
     category: string;
+    coverUrl: string;
+    backUrl:string;
 }
 
 @Component({
