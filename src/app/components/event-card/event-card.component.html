@@ -26,12 +26,10 @@
         </div>
       </div>
       <div class="tile-buttons">
-        <a  [routerLink]="'event-detail/' + event.id">
 
-            <button class="tile-button" id="btn">
+            <button class="tile-button" id="btn" (click)="redirect()">
                 details
             </button>
-        </a>
 
 
         <!-- registration link here -->
