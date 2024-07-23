@@ -1,6 +1,6 @@
 <div class="tile-container">
     <div class="tile-image">
-      <img src="/Entertainment.svg" alt="KING - Monopoly Moves Album India Tour | Dehradun">
+      <img src="{{event.coverUrl}}" alt="KING - Monopoly Moves Album India Tour | Dehradun">
     </div>
     <div class="tile-content">
       <h3>{{event.title}}</h3>
@@ -25,20 +25,20 @@
             {{event.location}}
         </div>
       </div>
-      <div class="tile-buttons">
+      <div class="tile-buttons w-full">
 
-            <button class="tile-button" id="btn" (click)="redirect()">
+            <button class="tile-button w-full" id="btn" (click)="redirect()">
                 details
             </button>
 
 
         <!-- registration link here -->
-        <a href="">
+        <!-- <a href="">
 
             <button class="tile-button spacial-btn" >
                 Register
             </button>
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
