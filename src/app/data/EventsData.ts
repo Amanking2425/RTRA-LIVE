@@ -12,6 +12,17 @@ export var EventsData = [
         },
         {
             id:1,
+            title: "FUSION CRAFT WORKSHOP",
+            coverUrl : "/PastEvents/fusionCollage3.jpg",
+            backUrl : "/PastEvents/FusionCollage.jpg",
+            description: "We are so amazed to share that the 3D Modelling Workshop conducted by Resolute Lab India left an incredible mark at Lovely Professional University & Renovation Tech Robotics and Aeromodelling recently! Our workshop on 3D modelling and design principles was met with incredibly high energy and motivated students. It was truly inspiring for my team and me to encounter such smart, enthusiastic learners eager to dive deep into the world of space & robotics. Students completed brief documentation as per industry standards, and our team was really happy after looking at there work. Special thanks to Tanishk Singhal for organising and leading this programme from start to end. Happy to see him and his team so dedicated and excited towards to future of Space Technology & Robotics. It really convinces that India’s Space future are in reliable young hands.",
+            date: "MyDate",
+            location: "My Location",
+            timings: "My Tmining",
+            category: "Choti Catagory",  
+        },
+        {
+            id:2,
             title: "ROBOTICS-OLYMPIAD",
             coverUrl : "/PastEvents/ROBOTICSOLYMP.jpg",
             backUrl : "/PastEvents/FusionCollage2.jpg",
@@ -21,16 +32,5 @@ export var EventsData = [
             timings: "My Tmining",
             category: "Choti Catagory",  
         },
-        {
-            id:2,
-            title: "FUSION CRAFT WORKSHOP",
-            coverUrl : "/PastEvents/fusionCollage3.jpg",
-            backUrl : "/PastEvents/FusionCollage.jpg",
-            description: "We are so amazed to share that the 3D Modelling Workshop conducted by Resolute Lab India left an incredible mark at Lovely Professional University & Renovation Tech Robotics and Aeromodelling recently! Our workshop on 3D modelling and design principles was met with incredibly high energy and motivated students. It was truly inspiring for my team and me to encounter such smart, enthusiastic learners eager to dive deep into the world of space & robotics. Students completed brief documentation as per industry standards, and our team was really happy after looking at there work. Special thanks to Tanishk Singhal for organising and leading this programme from start to end. Happy to see him and his team so dedicated and excited towards to future of Space Technology & Robotics. It really convinces that India’s Space future are in reliable young hands.",
-            date: "MyDate",
-            location: "My Location",
-            timings: "My Tmining",
-            category: "Choti Catagory",  
-        }
 
 ];

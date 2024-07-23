@@ -6,9 +6,10 @@
     background-color: var(--background);
     border-radius: 8px;
     padding: 16px;
-    height: 80%;
+    /* height: 80%; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
     flex: 0 0 auto;
     scroll-snap-align: center;
     transition: 0.3s all;
@@ -17,12 +18,6 @@
     scale: 1.03;
 }
 .tile-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    /* object-fit: cover; */
-    object-position: center;
-    overflow: hidden;
 }
 
 .tile-image img {
@@ -46,10 +41,11 @@
 }
 
 .tile-details {
+    color: var(--subtext);
+    text-overflow: ellipsis;
     display: flex;
     align-items: center;
     margin-bottom: 12px;
-    color: #f0f0f0;
 }
 
 .tile-icon {
