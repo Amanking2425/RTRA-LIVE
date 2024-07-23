@@ -1,31 +1,14 @@
 export var EventsData = [
     {
             id:0,
-            title: "ONE",
-            coverUrl : "",
-            backUrl : "",
+            title: "KRITRIMA 1.0",
+            coverUrl : "/PastEvents/Kritima.jpg",
+            backUrl : "/PastEvents/Kritima.jpg",
             description: "MyDiscrioptin",
             date: "MyDate",
             location: "My Location",
             timings: "My Tmining",
             category: "Choti Catagory",
         },
-    {
-            id:1,
-            title: "TWO",
-            description: "MyDiscrioptin",
-            date: "MyDate",
-            location: "My Location",
-            timings: "My Tmining",
-            category: "Choti Catagory",
-        },
-    {
-            id:2,
-            title: "THREE",
-            description: "MyDiscrioptin",
-            date: "MyDate",
-            location: "My Location",
-            timings: "My Tmining",
-            category: "Choti Catagory",
-        },
+
 ];
