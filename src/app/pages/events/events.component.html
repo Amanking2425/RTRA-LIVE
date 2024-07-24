@@ -33,13 +33,20 @@
 
         <!-- for upcoming events  -->
         @if(activeTab){
+            @if(UpcomingEvents.length <=0){
+                <h3 class="no-events-text font-thin text-xl"> No Event Yet ! </h3>
+            }
+            @else {
             @for(event of UpcomingEvents; track event.id) {
                 <app-event-card [event]="event" ></app-event-card>
-            }
+            }}
         }@else {
-            @for(event of PastEvents; track event.id) {
-                <app-event-card [event]="event"></app-event-card>
-            }
+
+
+                @for(event of PastEvents; track event.id) {
+                    <app-event-card [event]="event"></app-event-card>
+                }
+
         }
 
 </div>

@@ -18,8 +18,11 @@
 }
 .tile-image {
     width: 100%;
-    height: auto;
+    height: 12rem;
     border-radius: 8px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
     overflow: hidden;
 }
 

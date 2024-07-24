@@ -97,3 +97,7 @@
 svg {
     color: var(--text);
 }
+
+.desc{
+    color:var(--text)
+}
