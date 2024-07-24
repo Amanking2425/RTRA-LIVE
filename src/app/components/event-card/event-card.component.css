@@ -1,6 +1,9 @@
 .tile-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     width: 20rem;
     border: 1px solid var(--accent3);
     background-color: var(--background);
@@ -50,6 +53,18 @@
     display: flex;
     align-items: center;
     margin-bottom: 12px;
+}
+
+
+.highlight {
+    background: linear-gradient(90deg, var(--accent2), var(--accent3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    transition: all 1s;
+    background-size: 200% auto;
+    animation: gradientAnimation 3s ease-in-out infinite alternate;
 }
 
 .tile-icon {

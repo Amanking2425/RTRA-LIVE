@@ -26,10 +26,10 @@ export class EventBoardComponent {
     @Input() events!: CustomEvent[];
     @Input() category!: string;
     ngOnInit() {
-        setTimeout(() => {
-            this.document.nativeElement.querySelector(
-                '.eventBoard'
-            ).style.width = `calc(${(this.events.length+1) * 500 + 'px'})`;
-        }, 1000);
+        // setTimeout(() => {
+        //     this.document.nativeElement.querySelector(
+        //         '.eventBoard'
+        //     ).style.width = `calc(${(this.events.length+1) * 500 + 'px'})`;
+        // }, 1000);
     }
 }
