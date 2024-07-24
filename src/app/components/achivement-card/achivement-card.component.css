@@ -43,6 +43,7 @@
 .tile-details {
     text-overflow: ellipsis;
     display: flex;
+    color: var(--subtext);
     align-items: center;
     margin-bottom: 12px;
 }
@@ -52,6 +53,7 @@
 }
 
 .tile-info {
+    color: var(--subtext);
     color: var(--accent2);
     font-size: 0.9rem;
 }
