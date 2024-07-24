@@ -43,7 +43,7 @@
 .tile-details {
     text-overflow: ellipsis;
     display: flex;
-    color: var(--text);
+    color: var(--subtext);
     align-items: center;
     margin-bottom: 12px;
 }
