@@ -71,7 +71,20 @@
         <img alt="logo" width="420" height="120" src="/robot-1.svg" />
     </div> -->
 </div>
-<app-event-board
+<!-- <app-event-board
     [events]="events"
     [category]="'Upcoming Events'"
-></app-event-board>
+></app-event-board> -->
+<h2 class="eventCategory">'Upcoming Events'</h2>
+<div class="eventBoard scroll-smooth focus:scroll-auto" >
+    <div class="tile-container flex justify-center items-center highlight text-2xl font-semibold">
+        Comming Soon
+    </div>
+    <div class="tile-container flex justify-center items-center">
+
+        <a routerLink="/events" class="Event-page-ancor w-16 h-16 rounded-lg flex justify-center items-center ">
+            <i class="fa-solid fa-arrow-right icon"></i>
+        </a>
+
+      </div>
+</div>

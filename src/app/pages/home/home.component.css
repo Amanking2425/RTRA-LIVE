@@ -10,3 +10,119 @@
 .subText{
     color: var(--accent);
 }
+
+
+:host {
+    display: block;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+}
+
+.eventCategory {
+    font-weight: 700;
+    background: linear-gradient(160deg, var(--accent) 0%, var(--accent2) 100%);
+    color: var(--background);
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 2rem;
+    position: absolute;
+    margin-left: 2.5%;
+    clip-path: polygon(
+        10% 0%,
+        90% 0%,
+        100% 40%,
+        100% 100%,
+        90% 100%,
+        10% 100%,
+        0% 60%,
+        0 0
+    );
+
+
+}
+
+.eventBoard {
+    display: flex;
+    margin-top: 6rem;
+    gap: 2rem;
+    transition:  0.3s all;
+    height: clamp(300px, 80vh, 500px);
+    white-space: nowrap;
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-snap-type:y mandatory;
+    scroll-behavior: smooth;
+    padding: 1rem;
+}
+
+
+
+.tile-container{
+
+    width: 20rem;
+    border: 1px solid var(--accent3);
+    background-color: var(--background);
+    border-radius: 8px;
+    padding: 16px;
+    height: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+}
+.Event-page-ancor{
+    background-color: var(--secondary);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.Event-page-ancor:hover{
+    scale: 1.1;
+}
+.icon{
+    font-size: 2rem;
+    color: var(--accent3);
+    transition: 0.3s all;
+
+}
+.Event-page-ancor:hover .icon{
+    position: relative;
+    left: 10px;
+}
+.tile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 20rem;
+    border: 1px solid var(--accent3);
+    background-color: var(--background);
+    border-radius: 8px;
+    padding: 16px;
+    height: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    transition: 0.3s all;
+}
+.tile-container:hover {
+    scale: 1.03;
+}
+
+.highlight {
+    background: linear-gradient(90deg, var(--accent2), var(--accent3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    transition: all 1s;
+    background-size: 200% auto;
+    animation: gradientAnimation 3s ease-in-out infinite alternate;
+}
