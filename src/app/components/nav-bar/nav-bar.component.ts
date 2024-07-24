@@ -21,7 +21,7 @@ export class NavBarComponent {
         { title: 'Home', link: '/' },
         { title: 'About', link: '/about' },
         { title: 'Events', link: '/events' },
-        { title: 'Achievments & Projects', link: '/project-and-achievments' },
+        { title: 'Achievements & Projects', link: '/project-and-achievments' },
     ];
     constructor(private document: ElementRef) {}
 
