@@ -12,18 +12,6 @@
 }
 
 
-:host {
-    display: block;
-    height: 100%;
-    width: 100%;
-    white-space: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    box-sizing: border-box;
-}
-
 .eventCategory {
     font-weight: 700;
     background: linear-gradient(160deg, var(--accent) 0%, var(--accent2) 100%);
